@@ -19,8 +19,8 @@ class App < Sinatra::Base
     repeat
   end
 
-  get '/say/:word1/:word2/:word3/:word4/:word5' do 
-  end 
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
+  end
 
 
 
