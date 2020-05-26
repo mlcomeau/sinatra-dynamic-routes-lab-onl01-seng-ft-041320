@@ -6,16 +6,16 @@ class App < Sinatra::Base
     "#{params[:name].reverse}"
   end
 
-  get '/square/:number' do 
+  get '/square/:number' do
     "#{params[:number].to_i ** 2}"
-  end 
+  end
 
-  get '/say/:number/:phrase' do 
+  get '/say/:number/:phrase' do
     num = params[:number].to_i
 
-    num.times do 
+    num.times do
       "#{params[:phrase]}"
-    end 
-  end 
+    end
+  end
 
 end
